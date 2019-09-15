@@ -1,0 +1,92 @@
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    width: auto;
+    background: ghostwhite;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+}
+
+.sidebar {
+    float: left;
+    width: 15%;
+    height: auto;
+    background: whitesmoke;
+    padding: 2%;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.sidebar a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    float: right;
+    width: 77%;
+    background: white;
+    padding: 2%;
+    min-height: 600px;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.content h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.content a:hover {
+    background-color: aqua;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    background: ghostwhite;
+    color: black;
+    text-align: center;
+}
